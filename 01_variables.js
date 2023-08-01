@@ -22,5 +22,5 @@ studentEmail = "anas@gmail.com"
 console.table([studentName, studentEmail, studentId])
 
 // we can assign variable without let var and const but it is bad practice
-age = 16;
+age = 18;
 console.log(age);
