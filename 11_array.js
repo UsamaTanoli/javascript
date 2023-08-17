@@ -51,7 +51,50 @@ let nameList = ["oka", "ana", "sha", "osam","abub"]
 // console.log(spliName);
 // console.log(nameList);
 
-let nameList1 = ["adam", "jack", "mark", "robert"]
-let spliName1 = nameList1.splice(2,0, "john")
-console.log(nameList1);
-console.log(spliName1);
+// let nameList1 = ["adam", "jack", "mark", "robert"]
+// let spliName1 = nameList1.splice(2,0, "john")
+// console.log(nameList1);
+// console.log(spliName1);
+
+let fruitList = ["mango", "pinapple", "peach", "graps"]
+let vegList = ["onion", "potato", "ginger", "garlic"]
+// fruitList.push(vegList);
+// console.log(fruitList);
+// console.log(fruitList[4][1]);
+
+// .concat()
+// let newList = fruitList.concat(vegList)
+// console.log(newList);
+
+// let combine = [...fruitList, ...vegList, ...[,1,2,3,4]]
+// console.log(combine);
+
+//Array.flat()
+
+// let nastedArray = [1,2,3,4,[1,2],9,10,[1,2,3,[4,9,1,3]]]
+// console.log(nastedArray);
+// console.log("after flat :",nastedArray.flat(2));
+
+let string = "anasKhan"
+
+// Array.isArray()
+// console.log(Array.isArray(string));
+// console.log(Array.isArray([1,2,3,4]));
+// console.log(Array.isArray(new Array(1,2)));
+
+// Array.from()
+
+// console.log(Array.from(string));
+// console.log(Array.from({name: "okasha"}))
+// const set = (["foo", "bar", "baz", "foo"]);
+// console.log(Array.from(set));
+
+// Array.of()
+
+// let n1 = 200;
+// let n2 = 300;
+// let n3 = 800;
+
+// let arrOf = Array.of(n1,n2,n3)
+// console.log(arrOf);
+// console.log(typeof arrOf);
