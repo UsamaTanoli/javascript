@@ -188,3 +188,7 @@ value1 = null ?? 23 ?? 23; // it will take first value
 
 let num = 34;
 num >= 35 ? console.log("number is greator") : console.log("number is lesser");
+
+let name1 = "usama Aijaz";
+// name = "anas" // this will print wrong name
+name1 == "usama Aijaz" ? console.log("right name") : console.log("wrong name"); ;
