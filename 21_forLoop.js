@@ -40,6 +40,13 @@
 
 // let nameArr = ["anas", "shaban", "usama", "okasha", "bilal"];
 
+/*
+         Break Statement:
+
+The break statement is used to exit a loop prematurely,
+ typically when a certain condition is met. It allows you to terminate 
+ the loop's execution immediately. */
+
 // for (let i = 0; i < nameArr.length; i++){
 //     if(nameArr[i] === "usama"){
 //         console.log(`"${nameArr[i]}" the lion detected on index ${i} so please abbort mission`);
@@ -47,6 +54,12 @@
 //     }
 //     console.log(nameArr[i]);
 // }
+
+    /*
+         Continue Statement
+    The continue statement is used to skip the current iteration of a loop 
+    and move to the next iteration. It's typically used when you want to 
+    skip a specific iteration based on a condition but continue with the remaining iterations.*/
 
 // for (let i = 0; i < nameArr.length; i++){
 //     if(nameArr[i] === "usama"){
