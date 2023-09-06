@@ -1,5 +1,5 @@
 let button = document.querySelectorAll('.button');
-console.log(button);
+// console.log(button);
 let body = document.querySelector('body');
 
 // button.forEach((buttonClick)=> {
