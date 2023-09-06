@@ -12,6 +12,8 @@ let body = document.querySelector('body');
 //             body.style.backgroundColor = "white"
 //         }else if(e.target.id === "blue"){
 //             body.style.backgroundColor = e.target.id
+//         }else if(e.target.id === "goldenrod"){
+//             body.style.backgroundColor = e.target.id
 //         }else{
 //             body.style.backgroundColor = e.target.id
 //         }
@@ -38,6 +40,9 @@ let eventOnButton = newButton.map((buttonClick)=>{
             case "blue":
                 body.style.backgroundColor = e.target.id
                 break;
+                case "goldenrod":
+                    body.style.backgroundColor = e.target.id
+                    break;
         
             default:
                 body.style.backgroundColor = e.target.id

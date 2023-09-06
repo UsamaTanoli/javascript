@@ -16,6 +16,7 @@ html {
     height: 100px;
     border: solid black 2px;
     display: inline-block;
+    border-radius: 50%; /* Set border-radius to 50% for a round shape */
   }
   
   #grey {
@@ -27,6 +28,9 @@ html {
   }
   #blue {
     background: blue;
+  }
+  #goldenrod{
+    background-color: goldenrod;
   }
   #yellow {
     background: yellow;
