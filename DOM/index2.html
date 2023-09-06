@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // let h1 = document.createElement("H1")
+    // console.log(h1); 
+    // // h1.innerText = "This Is First heading"
+    // h1.className = "heading-group";
+    // h1.id = Math.floor(Math.random()*10 + 1)
+    // let textNode = document.createTextNode("This Is My First Heading")
+    // h1.appendChild(textNode)
+    // document.body.appendChild(h1)
+
+    // we can make function of above and by calling function it will be very easy
+
+    
+    
+    function createHeading(id1, className1, textNode1) {
+        let h1 = document.createElement("h1");
+        h1.id = id1; // Set the ID based on the provided argument
+        h1.className = className1; // Set the class based on the provided argument
+        let textNode = document.createTextNode(textNode1);
+        h1.appendChild(textNode);
+        document.body.appendChild(h1);
+
+        return h1;
+    }
+    
+    
+        createHeading("first-heading", "my-class", "This is my first heading")
+       console.log(createHeading("mango", "fruit", "Chonsa Mango"))
+// createHeading("myHeading", "heading-group", "This Is My First Heading");
+
+</script>
+
+</html>
